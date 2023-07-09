@@ -2,16 +2,17 @@
 
 #### Problem Statement:
     
-    Wafer (In electronics), also called a slice or substrate, is a thin slice of semiconductor,
-    such as a crystalline silicon (c-Si), used for fabricationof integrated circuits and in photovoltaics,
-    to manufacture solar cells.
-    
-    The inputs of various sensors for different wafers have been provided.
-    The goal is to build a machine learning model which predicts whether a wafer needs to be replaced or not
-    (i.e whether it is working or not) nased on the inputs from various sensors.
-    There are two classes: +1 and -1.
-    +1: Means that the wafer is in a working condition and it doesn't need to be replaced.
-    -1: Means that the wafer is faulty and it needa to be replaced.
+     The motive behind developing the WAFER DEFECT DETECTION project was driven by the need to improve efficiency and reduce waste in the semiconductor manufacturing industry. During my research and exploration of the industry, I discovered that one of the significant challenges faced by semiconductor manufacturers is identifying defective wafers accurately and efficiently.
+
+Defective wafers can lead to substantial financial losses, as well as production delays, impacting the overall productivity of the manufacturing process. Existing methods for wafer defect detection relied heavily on manual inspection, which was time-consuming, prone to errors, and not scalable for large-scale production.
+
+Motivated by these challenges, my team and I set out to develop a solution that could automate and streamline the wafer defect detection process. Our goal was to create a web application that could predict whether a wafer needed to be replaced or not, based on data extracted from sensors using the MQTT protocol.
+
+To accomplish this, we utilized our skills in Python, Random Forest, XGBOOST, SQLite, and implemented a Continuous Integration and Continuous Deployment (CICD) pipeline. We collected data from various sensors installed throughout the manufacturing process, capturing important parameters related to the wafers' quality. This data served as the foundation for training our machine learning models.
+
+By employing advanced algorithms such as Random Forest and XGBOOST, we trained the models to accurately analyze the sensor data and classify the wafers as either defective or non-defective. Through rigorous testing and validation, we achieved an impressive accuracy rate of 89%, ensuring reliable predictions for the replacement of wafers.
+
+Our web application served as an intuitive interface for users, providing them with real-time predictions and insights into the quality of each wafer. By implementing this system, semiconductor manufacturers could significantly reduce the reliance on manual inspection, improve production efficiency, and minimize financial losses associated with defective wafers.
     
 #### Data Description
     
