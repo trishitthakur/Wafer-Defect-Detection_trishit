@@ -1,8 +1,8 @@
 ## Wafer Fault Detection
 
 #### Problem Statement:
-    
-     The motive behind developing the WAFER DEFECT DETECTION project was driven by the need to improve efficiency and reduce waste in the semiconductor manufacturing industry. During my research and exploration of the industry, I discovered that one of the significant challenges faced by semiconductor manufacturers is identifying defective wafers accurately and efficiently.
+
+The motive behind developing the WAFER DEFECT DETECTION project was driven by the need to improve efficiency and reduce waste in the semiconductor manufacturing industry. During my research and exploration of the industry, I discovered that one of the significant challenges faced by semiconductor manufacturers is identifying defective wafers accurately and efficiently.
 
 Defective wafers can lead to substantial financial losses, as well as production delays, impacting the overall productivity of the manufacturing process. Existing methods for wafer defect detection relied heavily on manual inspection, which was time-consuming, prone to errors, and not scalable for large-scale production.
 
